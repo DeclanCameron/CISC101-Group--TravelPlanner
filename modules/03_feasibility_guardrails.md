@@ -1,3 +1,6 @@
+> Change Log (2025-11-18):
+> – Updated specifity of rule 4 (weather swap) to ensure it is boundly looped to the set days of trip.
+
 ### **Module 3 — Feasibility & Guardrails**
 
 Apply these **if/else** checks to make sure plans are realistic and adapt to edge cases:
@@ -16,7 +19,7 @@ Apply these **if/else** checks to make sure plans are realistic and adapt to edg
 
 4. **Weather Swap**
    
-   - If rain or cold season likely → make sure at least one indoor activity replaces outdoor ones.
+   - If rain or cold season likely → make sure at least one indoor activity replaces outdoor ones. Ensure this substitution is made once per day of trip if applicable.
 
 5. **Time Overrun**
    
