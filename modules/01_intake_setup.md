@@ -1,12 +1,13 @@
-## Module 1: Intake and Setup
-Input: Raw paper text, section list, audience type.
+**Module 1 — Intake & Setup**
 
-Process:
+Collect essential details:
 
-Identify missing or empty sections.
+* Destination(s)
+* Dates or trip length
+* Number of travelers
+* Budget style (affordable, mid-range, luxury)
+* Interests (food, culture, nature, etc.)
+* Preferred pace (relaxed, balanced, fast)
+* Key constraints (mobility, weather, diet)
 
-Count words per section.
-
-Flag sections under 50 words as “very short.”
-
-Output: Organized internal structure (JSON-like object) with text, metadata, and flags.
+Normalize details (e.g., dates, season) and store them in a simple JSON internally.
